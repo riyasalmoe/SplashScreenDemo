@@ -62,7 +62,7 @@ namespace SplashScreenDemo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(0)))), ((int)(((byte)(51)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(88)))), ((int)(((byte)(86)))));
             this.ClientSize = new System.Drawing.Size(700, 400);
             this.ControlBox = false;
             this.Controls.Add(this.ProgressOuterPanel);
