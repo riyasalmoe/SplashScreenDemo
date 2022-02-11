@@ -71,6 +71,7 @@ namespace SplashScreenDemo
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.TopMost = true;
             this.Load += new System.EventHandler(this.SplashScreenForm_Load);
             this.ProgressOuterPanel.ResumeLayout(false);
             this.ResumeLayout(false);

@@ -16,6 +16,7 @@ namespace SplashScreenDemo
             {
                 timer1.Stop();
                 timer1.Enabled = false;
+                Hide();
                 Close();
             }
         }
