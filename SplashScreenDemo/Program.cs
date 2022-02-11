@@ -43,9 +43,9 @@ namespace SplashScreenDemo
         //    await Task.Run(()=> Application.Run(new SplashScreenForm()));
         //}
 
-        private static async void StartForm()
-        {
-            await Task.Run(() => Application.Run(SplashScreen));
-        }
+        //private static async void StartForm()
+        //{
+        //    await Task.Run(() => Application.Run(SplashScreen));
+        //}
     }
 }
