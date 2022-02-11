@@ -12,14 +12,15 @@ namespace SplashScreenDemo
         {
             
             InitializeComponent();
-            
+            FormBorderStyle = FormBorderStyle.None;
+            WindowState = FormWindowState.Maximized;
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            TopMost = true;
-            Thread.Sleep(500);
-            TopMost = false;
+            //TopMost = true;
+            //Thread.Sleep(500);
+            //TopMost = false;
         }
 
 

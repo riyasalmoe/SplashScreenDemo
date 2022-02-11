@@ -10,7 +10,7 @@ namespace SplashScreenDemo
     static class Program
     {
         //public static Thread splashThread;
-        //public static SplashScreenForm SplashScreen; //= new SplashScreenForm();
+        //public static SplashScreenForm SplashScreen = new SplashScreenForm();
 
         /// <summary>
         /// The main entry point for the application.
@@ -23,10 +23,13 @@ namespace SplashScreenDemo
 
             //splash screen close by itself
             Application.Run(new SplashScreenForm());
+            //StartSplash();
+
+            //Thread.Sleep(5000);
 
             //application start
             Application.Run(new MainScreenForm());
-            
+
             //SplashScreen = new SplashScreenForm();
             //splashThread = new Thread(new ThreadStart(StartForm));
             //splashThread.Start();
@@ -35,9 +38,14 @@ namespace SplashScreenDemo
 
         }
 
-        //private static async void StartForm()
+        //private static async void StartSplash()
         //{
-        //   await Task.Run(() => Application.Run(SplashScreen));           
+        //    await Task.Run(()=> Application.Run(new SplashScreenForm()));
         //}
+
+        private static async void StartForm()
+        {
+            await Task.Run(() => Application.Run(SplashScreen));
+        }
     }
 }

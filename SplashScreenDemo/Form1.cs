@@ -23,6 +23,8 @@ namespace SplashScreenDemo
 
         private void SplashScreenForm_Load(object sender, System.EventArgs e)
         {
+            TopMost = true;
+            BringToFront();
             timer1.Enabled = true;
         }
     }
